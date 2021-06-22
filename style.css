@@ -1,0 +1,11 @@
+.hide {
+	display: none;
+}
+
+.car {
+	width: 50px;
+	height: 100px;
+	background: transparent
+		url("https://toppng.com/uploads/preview/aston-martin-one77-01-top-down-car-sprite-1156302814774vtgthfmb.png")
+		center / cover no-repeat;
+}

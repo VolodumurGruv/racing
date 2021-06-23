@@ -59,7 +59,7 @@ function startGame() {
 		enemy.style.background = `transparent
 		url("${randEnemy()}")
 		center / cover no-repeat`;
-		console.log(enemy.style.background);
+
 		gameArea.appendChild(enemy);
 	}
 
@@ -132,6 +132,6 @@ function moveEnemy() {
 
 function randEnemy() {
 	const idx = Math.floor(Math.random() * 2);
-	console.log(idx);
+
 	return enemyCars[idx];
 }
